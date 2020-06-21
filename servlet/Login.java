@@ -23,24 +23,24 @@ public class Login extends HttpServlet {
 		String password = request.getParameter("user_password");
 		
 		member2dao dao = new member2dao();
-		 member2dto dto = dao.select(id, password);		// DB ¾ÈÀÇ È£ÃâµÈ Á¤º¸µéÀÌ ¸®ÅÏµÈ´Ù.
+		 member2dto dto = dao.select(id, password);		
 		
 		
 			
 		if(dto != null) {
-			 use = dto.getUse();	// Á¤ÁöÈ¸¿øÀÎÁö ¾Æ´ÑÁö ±¸ºÐÇÒ use¸¦ º¯¼ö¿¡ ´ëÀÔ.
+			 use = dto.getUse();	// ï¿½ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ useï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 			if(use.equals("Y")) {
 				HttpSession session = request.getSession();
 				session.setAttribute("createnickname", dto.getNickname());
 				session.setAttribute("createid", dto.getId());
 				session.setAttribute("power", dto.getPower());
-				request.setAttribute("use", use);			// use ¿¡ µû¶ó ( Á¤ÁöÈ¸¿ø , Á¤»óÁøÇà ) ÀÌ ³ª´¶´Ù.
+				request.setAttribute("use", use);			// use ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ( ï¿½ï¿½ï¿½ï¿½È¸ï¿½ï¿½ , ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ) ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 				request.getRequestDispatcher("loginResultView.jsp").forward(request, response);
 			}else {
 				request.setAttribute("createnickname", dto.getNickname());
 				request.setAttribute("createid", dto.getId());
 				request.setAttribute("power", dto.getPower());
-				request.setAttribute("use", use);			// use ¿¡ µû¶ó ( Á¤ÁöÈ¸¿ø , Á¤»óÁøÇà ) ÀÌ ³ª´¶´Ù.
+				request.setAttribute("use", use);			// use ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ( ï¿½ï¿½ï¿½ï¿½È¸ï¿½ï¿½ , ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ) ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 				request.getRequestDispatcher("loginResultView.jsp").forward(request, response);
 			}
 		}else {
