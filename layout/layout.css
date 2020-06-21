@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.header, .footer {
+	width: 80%;
+	padding: 1em;
+	background: #01DF74;	// 배경화면 색
+	color: #f4dee6;			// 글씨 색
+	font: sans-serif;
+	font-weight: bold;
+}
+
+.main { 
+	width: 90%;
+	padding: 1em;
+	min-height: 400px;
+	padding-top: 15px;
+	background: #f4e8f0;	// 배경색
+	color: #968fff;			// 글씨 색
+}
+
+.table {
+	border: 2px thin;
+	border-color: #422a3a;
+	font: sans-serif;
+	font-style: normal;
+	color: #968fff;			// 글씨 색
+}
