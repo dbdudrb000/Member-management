@@ -6,7 +6,7 @@
     
 	<h2> welcome</h2>    
     <h3> 나의 홈페이지</h3> 
-    <h5> 이곳은 메인페이지 입니다.</h5>
+    <h4> 이곳은 메인페이지 입니다.</h4>
     
     
     <jsp:include page = "/layout/footer.jsp"/>
