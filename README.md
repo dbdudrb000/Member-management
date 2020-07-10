@@ -25,7 +25,8 @@
 ● MVC 패턴을 이해하며 기본원리를 파악하며 활용
 
 # 테이블정의서
-![CreatePlan](C:\Users\dbdud\Desktop\포토폴리오 관리\테이블정의서( Excel )\member.PNG)
+![member.PNG](./테이블정의서( Excel )/member.PNG)
+
 
 
 # USECASE
