@@ -50,6 +50,9 @@
 # 테이블정의서
 ![member.PNG](./readmeimg/member.PNG)
 
+# DB diaagrame
+
+![DBdiagrame](./readmeimg/DBdiagrame.PNG)
 
 # USECASE
 
