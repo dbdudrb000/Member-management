@@ -1,3 +1,21 @@
+# 개요
+● 프로젝트 명 : member-management
+
+● 일정 : 2020.4.1 ~ 2020.4.21
+
+● 팀구성 : 유영규
+
+● 목적 : JSP를 처음 접하면서 JSP에 대한 이해도와 JSP를 사용하면서 프로젝트를 진행하면서 공부함이 목적이다.
+
+● 사용기술 및 개발환경
+
+○ O/S : Windows 10(개발환경)
+○ Server : Tomcat8.5
+○ DB : Oracle 11g
+○ Freamework : JSP, Servlet
+○ Programming Language : JAVA, HTML, Javascript
+○ Tool : Eclipse
+
 # 목적
 ● 관리자가 일반 회원들을 관리할 수 있는 있도록 기능 이해
 
@@ -28,8 +46,9 @@
 ![member.PNG](./readmeimg/member.PNG)
 
 
-
 # USECASE
+
+![usecase.PNG](./readmeimg/usecase.PNG)
 
 ● 운영자 :
             관리자 및 일반회원 관리를 할 수 있다
