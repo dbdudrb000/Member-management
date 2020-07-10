@@ -50,7 +50,7 @@
 # 테이블정의서
 ![member.PNG](./readmeimg/member.PNG)
 
-# DB diaagrame
+# DB diagrame
 
 ![DBdiagrame](./readmeimg/DBdiagrame.PNG)
 
