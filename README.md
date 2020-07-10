@@ -9,17 +9,17 @@
 
 ● 사용기술 및 개발환경
 
-○ O/S : Windows 10(개발환경)
+    ○ O/S : Windows 10(개발환경)
 
-○ Server : Tomcat8.5
+    ○ Server : Tomcat8.5
 
-○ DB : Oracle 11g
+    ○ DB : Oracle 11g
 
-○ Freamework : JSP, Servlet
+    ○ Freamework : JSP, Servlet
 
-○ Programming Language : JAVA, HTML, Javascript
+    ○ Programming Language : JAVA, HTML, Javascript
 
-○ Tool : Eclipse
+    ○ Tool : Eclipse
 
 # 목적
 ● 관리자가 일반 회원들을 관리할 수 있는 있도록 기능 이해
