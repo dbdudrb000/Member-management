@@ -15,7 +15,7 @@
 
     ○ DB : Oracle 11g
 
-    ○ Freamework : JSP, Servlet
+    ○ Framework : JSP, Servlet
 
     ○ Programming Language : JAVA, HTML, Javascript
 
