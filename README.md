@@ -10,10 +10,15 @@
 ● 사용기술 및 개발환경
 
 ○ O/S : Windows 10(개발환경)
+
 ○ Server : Tomcat8.5
+
 ○ DB : Oracle 11g
+
 ○ Freamework : JSP, Servlet
+
 ○ Programming Language : JAVA, HTML, Javascript
+
 ○ Tool : Eclipse
 
 # 목적
