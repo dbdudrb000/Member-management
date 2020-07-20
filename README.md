@@ -47,6 +47,9 @@
 
 ● MVC 패턴을 이해하며 기본원리를 파악하며 활용
 
+# 메인화면
+![repimg.PNG](./readmeimg/repimg.PNG)
+
 # 테이블정의서
 ![member.PNG](./readmeimg/member.PNG)
 
